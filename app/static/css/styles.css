@@ -1,0 +1,34 @@
+/* Light mode styles */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navbar-light {
+  background-color: #f8f9fa;
+}
+
+.btn-light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+.navbar-dark {
+  background-color: #343a40;
+}
+
+.btn-dark-mode {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+/* Dark mode table header */
+.dark-mode .table thead th {
+  color: #ffffff;
+}
