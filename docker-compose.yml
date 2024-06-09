@@ -5,7 +5,7 @@ services:
     build: .
     image: simonlkch/telegra-gallery:latest
     ports:
-      - "3000:3000"
+      - "7500:3000"
     volumes:
       - .:/usr/src/app
     environment:
