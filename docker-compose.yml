@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  telegra-gallery:
+    build: .
+    image: simonlkch/telegra-gallery:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - FLASK_ENV=development

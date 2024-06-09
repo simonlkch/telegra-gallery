@@ -1,0 +1,30 @@
+/* Light mode styles */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #181818;
+    color: #ffffff;
+  }
+  
+  .navbar-light {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-dark {
+    background-color: #343a40;
+  }
+  
+  .btn-light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .btn-dark-mode {
+    background-color: #181818;
+    color: #ffffff;
+  }
+  
